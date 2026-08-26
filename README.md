@@ -19,8 +19,8 @@ This application demonstrates real-time motion sensing and visualization on the 
 6. [Release Notes](#step6)
 
 ## 1. Software and Tools<a name="step1"></a>
-This example was developed using the FRDM Automotive Bundle for S32K3. To download and install the complete software and tools ecosystem, use the following link:
-- [S32K3 FRDM Automotive Board Installation Package](https://www.nxp.com/app-autopackagemgr/automotive-software-package-manager:AUTO-SW-PACKAGE-MANAGER?currentTab=0&selectedDevices=S32K3&applicationVersionID=156)
+This example was developed using the FRDM Automotive Bundle for S32K3 + S32M27. To download and install the complete software and tools ecosystem, use the following link:
+- [ FRDM Automotive S32K3 + S32M27 Board Installation Package](https://www.nxp.com/app-autopackagemgr/automotive-software-package-manager:AUTO-SW-PACKAGE-MANAGER?currentTab=0&selectedDevices=S32K3&applicationVersionID=203)
 - [FreeMASTER Run-Time Debugging Tool](https://www.nxp.com/design/design-center/software/development-software/freemaster-run-time-debugging-tool:FREEMASTER)
 
 ## 2. Hardware<a name="step2"></a>
@@ -43,7 +43,8 @@ This example was developed using the FRDM Automotive Bundle for S32K3. To downlo
 | VDD_PERH         | JA3 pin 7  | → | 3.3V         | Accel 4 Click | 3V3       | Power Supply |
 
 ### 2.3 Debugger Connection
-Connect the Type-C USB cable to PC and FRDM-A-S32K312 board for power supply and debugging.
+- Connect 12V DC power supply to the board via the 12V power connector.
+- Connect the Type-C USB cable to PC and FRDM-A-S32K312 board for power supply and debugging
 
 ## 3. Setup<a name="step3"></a>
 
@@ -139,3 +140,4 @@ Questions regarding the content/correctness of this example can be entered as Is
 | Version | Description / Update                           | Date                        |
 |:-------:|------------------------------------------------|----------------------------:|
 | 1.0     | Initial release on Application Code Hub        | July 3<sup>rd</sup> 2026    |
+| 1.1     | Updated to FRDM Automotive S32K3 + S32M27 (RTD 7.0.1)        |August 25<sup>th</sup> 2026|
